@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link ref="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville">
+    <title>D&D Class Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Dungeons & Dragons Class Test</div>
+        <div class="question">
+            <div id="question"> When facing a challenge, what's your first instinct?</div>
+            <br>
+        <div class="answers">
+            <button type="button" class="button" onclick="nextQuestion('A')">Charge in, ready for action!</button>
+            <hr class="rounded">
+            <button type="button" class="button" onclick="nextQuestion('B')">Assess the situation before making a move.</button>
+            <hr class="rounded">
+            <button type="button" class="button" onclick="nextQuestion('C')">Seek the advice of others.</button>
+            <hr class="rounded">
+            <button type="button" class="button" onclick="nextQuestion('D')">Find a creative solution or avoid it altogether.</button>
+            <hr class="rounded">
+            <button hidden type="button" class="button" onclick="nextQuestion('E')">The leader, taking charge and making decisions.</button>
+        </div>
+        <button type="prebutton" class="prebutton" onclick="previousQuestion('')">Previous Question</button>
+    <script src="testscript.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+            font-family: "Libre Baskerville", serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            background-color: transparent;
+            border: 10px dotted black;
+            border-radius: 5px;
+        }
+        .title {
+            font-size: 26px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        .question {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .answers {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            font-family: "Libre Baskerville";
+            font-size: 16px;
+            background-color: transparent;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: lightgrey;
+            width: 100%;
+        }
+        .rounded {
+            border-top: 2px solid black;
+            width: 70%;
+        }
+        .prebutton {
+            margin-top: 20px;
+            border-radius: 4px;
+            padding: 7px;
+            font-family: "Libre Baskerville";
+        }
